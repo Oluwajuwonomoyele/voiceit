@@ -9,16 +9,16 @@ menuBtn.addEventListener('click', () => {
   } else {
     toggleBtn.setAttribute('src', './img/hamburger.svg')
   }
-  console.log('clicked')
-
 })
-
-console.log(toggleBtn.getAttribute('src'))
-
 
 const swiper = new Swiper(".mySwiper", {
     scrollbar: {
       el: ".swiper-scrollbar",
-      hide: true,
     },
+    draggable: true,
+    slidesPerView: "auto",
+    spaceBetween: 15,
+    loopFillGroupBlank: false,
+    slidesOffsetAfter:0, 
+    freeMode: true
   });

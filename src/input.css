@@ -11,6 +11,7 @@
 }
 .swiper-slide {
     border: 2px solid #4B0673;
+    min-width: 320px;
 }
 
 .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
@@ -23,4 +24,10 @@
 }
 .swiper-scrollbar-drag {
     background-color: #4B0673!important;
+}
+
+@media screen and (min-width: 768px) {
+    .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+        width: 100px!important;
+    }
 }
