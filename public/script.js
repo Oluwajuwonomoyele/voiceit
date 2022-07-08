@@ -18,7 +18,4 @@ const swiper = new Swiper(".mySwiper", {
     draggable: true,
     slidesPerView: "auto",
     spaceBetween: 15,
-    loopFillGroupBlank: false,
-    slidesOffsetAfter:0, 
-    freeMode: true
   });

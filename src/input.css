@@ -31,3 +31,12 @@
         width: 100px!important;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    #hero {
+        background: url('./img/bg-dots.svg');
+        background-repeat: no-repeat;
+        background-position: 1rem 3rem;
+        background-size: 100px;
+    }
+}
